@@ -4,15 +4,11 @@ using UnityEngine;
 
 public class winner : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public manager manager;
+
+    void OnTriggerEnter () 
     {
-        
+        manager.win();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

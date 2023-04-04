@@ -39,7 +39,6 @@ public class ballControl : MonoBehaviour
         {
           transform.position = home;
         }
-        Debug.Log(jumpValue);
         if((jumpValue) && (Input.GetAxis("Jump") > 0))
         {
             rigid.AddForce(new Vector3(0, jumpHeight,0), ForceMode.Impulse); 

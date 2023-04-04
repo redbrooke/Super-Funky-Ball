@@ -10,6 +10,7 @@ public class manager : MonoBehaviour
     public void win()
     {
         level++;
+        Debug.Log("WIN");
     }
 
 }
