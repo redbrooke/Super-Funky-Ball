@@ -1801,7 +1801,6 @@ GameObject:
   - component: {fileID: 970493830}
   - component: {fileID: 970493829}
   - component: {fileID: 970493828}
-  - component: {fileID: 970493827}
   - component: {fileID: 970493826}
   m_Layer: 0
   m_Name: Win
@@ -1822,19 +1821,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6627a6968ebf514f82f41ed47960a4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!65 &970493827
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 970493825}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  manager: {fileID: 996039254}
 --- !u!23 &970493828
 MeshRenderer:
   m_ObjectHideFlags: 0

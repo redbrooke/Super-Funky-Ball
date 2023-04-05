@@ -8,6 +8,7 @@ public class winner : MonoBehaviour
 
     void OnTriggerEnter () 
     {
+        Debug.Log("big old win");
         manager.win();
     }
 
